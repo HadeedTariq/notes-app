@@ -1,0 +1,75 @@
+.big-box{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: center;
+}
+.search-bar{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  height: 40px;
+}
+.search-bar input{
+  padding: 3px 8px;
+  font-size: 17px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  position: fixed;
+  border-radius: 5px;
+  z-index: 8;
+}
+.box{
+  width: 15rem;
+  height: 180px;
+  border-radius: 5px;
+  background-color: #ffff78;
+  position: relative;
+  margin: 10px;
+}
+.box textarea{
+  width: 100%;
+  height: 60%;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  resize: none;
+  font-size: 18px;
+  font-weight: 300;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.editor{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 8px;
+  position: absolute;
+  bottom: 2px;
+  width: 95%;
+}
+.editor button{
+  padding: 2px 10px;
+  cursor: pointer;
+  font-size: 17px;
+  background-color: rgb(252, 36, 238);
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 3px;
+}
+.editor p{
+  font-size: 17px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.box2{
+  color:white;
+  background-color:#6e6ee7;
+}
+.box h5{
+  width:100%;
+  margin:5px;
+  height:60%;
+  font-size: 17px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  display: flex;
+  flex-wrap: wrap;
+}
